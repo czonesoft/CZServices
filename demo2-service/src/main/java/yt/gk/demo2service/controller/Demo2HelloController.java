@@ -13,6 +13,7 @@ public class Demo2HelloController {
 
     /**
      * 访问样例 http://localhost:8887/hello?name=czj
+     * 通过网关访问样例：http://10.2.161.197:8001/demo2/hello?name=czj
      * 实际调用了demo1提供的服务
      * @param name
      * @return
