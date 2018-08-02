@@ -1,5 +1,7 @@
-package yt.gk.demo1service.service;
+package yt.gk.demo1service.controller;
 
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import yt.gk.demo1serviceapi.api.Demo1Api;
