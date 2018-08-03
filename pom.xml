@@ -6,15 +6,22 @@
     <groupId>YT</groupId>
     <artifactId>gkservices</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>gkservices</name>
     <description>Business micro services</description>
 
+    <modules>
+        <module>demo1-service-api</module>
+        <module>demo1-service</module>
+        <module>demo2-service-api</module>
+        <module>demo2-service</module>
+    </modules>
+
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.3.RELEASE</version>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-parent</artifactId>
+        <version>Finchley.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
